@@ -2,45 +2,123 @@
 
 <html>
 <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+
+    }
+
+    .button1 {
+        background-color: #4CAF50;
+        margin-left: 50px;
+        margin-top: 20px;
+
+
+    }
+
+    .button2 {
+        background-color: #ba0000;
+        margin-top: 20px;
+        margin-right: 50px;
+
+    }
+
     h2 {
         text-align: center;
     }
 
     p {
-        text-align: left center;
+        text-align: center;
     }
-   .center-p {
-        text-align:  center;
-        color:red
-    }
-    body {
-  background-image: url('radicalpixels.png');
-}
 
+    .center-p {
+        text-align: center;
+        color: red
+    }
+
+    .background-body {
+
+        background-image: url('radicalpixels.png');
+
+
+    }
+
+    @font-face {
+        font-family: 'ArcadeClassic';
+        src: url('arcadeclassic.regular-webfont.woff2') format('woff2'),
+            url('arcadeclassic.regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        
+
+    }
+
+    div {
+
+        font-family: 'ArcadeClassic';
+        font-size:50px
+
+    }
 </style>
 
 <head>
-	<meta charset="UTF-8">
-	<link rel="shortcut icon" href="favicon/favicon.ico" />
-	<title>Radical Pixels</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <title>Radical Pixels</title>
 </head>
 
 <body>
 
-<body style="background-image: url('radicalpixels.png');">
+    <body class="background-body">
 
-    
-    <h2>Radical Pixels official website</h2>
-    <p class="center-p" style="color: green;">We love games</p>
-    
-<!--app store, play store. Left play right app-->
-<p>
-    <a href="https://play.google.com/store/apps/details?id=com.salvai.ultimatetoss" target="_blank">Ultimate Toss</a>
 
-</p>
-    <p> <a href="https://play.google.com/store/apps/details?id=com.salvai.broomball" target="_blank">Pocket Broomball</a>
+        <h2>
+            <div> Radical Pixels official website </div>
+        </h2>
+        <p>
+            <span style="color:red;background-color: #fbff04"><i> We love games </i></span>
+        </p>
+        
 
-    </p>
-</body>
+        <!--play store-->
+
+
+        <p> <button class="button2"
+                onclick="window.open('https://play.google.com/store/apps/details?id=com.salvai.ultimatetoss','_blank')">Ultimate
+                Toss</button>
+
+
+
+        <p> <button class="button2"
+                onclick="window.open('https://play.google.com/store/apps/details?id=com.salvai.broomball','_blank')">Pocket
+                Broomball</button>
+
+
+            <!--app store-->
+
+
+
+        <p> <button class="button1"
+                onclick="window.open('https://apps.apple.com/app/pocket-broomball/id1511009171','_blank')">Pocket
+                Broomball</button>
+
+
+        <p> <button class="button1"
+                onclick="window.open('https://apps.apple.com/app/ultimate-toss/id1522604143','_blank')">Ultimate
+                Toss</button>
+
+
+        </p>
+    </body>
 
 </html>
