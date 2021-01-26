@@ -2,10 +2,6 @@
 
 <html>
 <style>
-    * {
-        box-sizing: border-box;
-    }
-
     button {
         border: none;
         color: white;
@@ -15,22 +11,36 @@
         display: inline-block;
         font-size: 16px;
         cursor: pointer;
-
     }
 
     .button1 {
         background-color: #4CAF50;
-        margin-left: 50px;
         margin-top: 20px;
+        margin-left: 800px;
+        margin-bottom: 20px;
+        opacity: 0.9;
+        transition: 0.3s;
 
+    }
 
+    .button1:hover {
+        background-color: #ba0000;
+        color: white;
     }
 
     .button2 {
         background-color: #ba0000;
-        margin-top: 20px;
-        margin-right: 50px;
+        margin-top: 30px;
+        margin-left: 200px;
+        margin-bottom: 10px;
+        opacity: 0.9;
+        transition: 0.3s;
 
+    }
+
+    .button2:hover {
+        background-color: #3e8e41;
+        color: white;
     }
 
     h2 {
@@ -59,14 +69,38 @@
             url('arcadeclassic.regular-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
-        
+
 
     }
 
     div {
 
         font-family: 'ArcadeClassic';
-        font-size:50px
+        font-size: 50px
+    }
+
+    .playStoreText {
+        font-style: normal;
+        float: left;
+        font-size: 30px;
+        text-align: right;
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+
+    .appleStoreText {
+        font-style: normal;
+        float: left;
+        font-size: 30px;
+        text-align: right;
+        margin-left: 470px;
+        margin-top: 10px;
+    }
+
+    .futurefont {
+
+        font-family: 'karma';
+        font-size: 50px;
 
     }
 </style>
@@ -86,39 +120,43 @@
             <div> Radical Pixels official website </div>
         </h2>
         <p>
-            <span style="color:red;background-color: #fbff04"><i> We love games </i></span>
+            <span class="futurefont" style="color:red; font-size: 30px; margin-right: 40px;"><i> NO ADS!
+                </i></span>
+        <p><span class="futurefont" style="color:#3e8e41; font-size: 25px; margin-right: 40px;">JUST FUN!</span></p>
+
+        <div class="playStoreText"> Play store </div>
+        <div class="appleStoreText"> App store </div>
         </p>
-        
+
 
         <!--play store-->
 
 
-        <p> <button class="button2"
-                onclick="window.open('https://play.google.com/store/apps/details?id=com.salvai.ultimatetoss','_blank')">Ultimate
-                Toss</button>
+        <button class="button2"
+            onclick="window.open('https://play.google.com/store/apps/details?id=com.salvai.ultimatetoss','_blank')">Ultimate
+            Toss</button>
 
 
 
-        <p> <button class="button2"
+        <div><button class="button2"
                 onclick="window.open('https://play.google.com/store/apps/details?id=com.salvai.broomball','_blank')">Pocket
                 Broomball</button>
+        </div>
+        <button class="button2"
+            onclick="window.open('https://play.google.com/store/apps/details?id=com.salvai.whatcolor','_blank')">WhatColor</button>
 
 
-            <!--app store-->
+        <!--app store-->
 
+       <button class="button1"
+            onclick="window.open('https://apps.apple.com/app/ultimate-toss/id1522604143','_blank')">Ultimate
+            Toss</button>
+        
 
-
-        <p> <button class="button1"
-                onclick="window.open('https://apps.apple.com/app/pocket-broomball/id1511009171','_blank')">Pocket
-                Broomball</button>
-
-
-        <p> <button class="button1"
-                onclick="window.open('https://apps.apple.com/app/ultimate-toss/id1522604143','_blank')">Ultimate
-                Toss</button>
-
-
-        </p>
+        <button class="button1"
+            onclick="window.open('https://apps.apple.com/app/pocket-broomball/id1511009171','_blank')">Pocket
+            Broomball</button>
+        
     </body>
 
 </html>
