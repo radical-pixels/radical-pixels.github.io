@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'ArcadeClassic';
+    src: url('ka1.ttf')  format('truetype')
+}
+
+.title {
+    font-family: 'ArcadeClassic';
+    font-size: 300px
+}
+
+.playStoreText {
+    font-style: normal;
+    float: left;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.appleStoreText {
+    font-style: normal;
+    float: left;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 470px;
+    margin-top: 10px;
+}
