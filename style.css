@@ -3,33 +3,31 @@
     src: url('ka1.ttf')  format('truetype')
 }
 
+body {
+    background-image: linear-gradient(to right, red ,rgb(18, 18, 19), blue);
+    text-align: center;
+}
+
 .title {
     font-family: 'ArcadeClassic';
     /* font-family: Arial, sans-serif; */
     font-size: 12vw;
-    text-align: center;
     margin: 4vw;
+    text-shadow: -3px 3px white,3px 3px white,3px -3px white,-3px -3px white;
 }
 
-.playStoreText {
-    font-style: normal;
-    float: left;
-    font-size: 30px;
-    text-align: right;
-    margin-left: 200px;
-    margin-top: 10px;
-}
 
-.appleStoreText {
-    font-style: normal;
-    float: left;
-    font-size: 30px;
-    text-align: right;
-    margin-left: 470px;
-    margin-top: 10px;
-}
 .motto{
     text-align: center;
     font-size: 4vw;
     font-family: Verdana, sans-serif;
+    text-shadow: -3px 3px white,3px 3px white,3px -3px white,-3px -3px white;
+}
+
+.game-entry {
+    width: 20vw;
+}
+
+.game-icon {
+
 }
