@@ -124,3 +124,8 @@ a:active {
     column-gap: 10vw;
     padding-left: 7vw;
 }
+
+.game-icons {
+    width: 22vw;
+    height: 22vw;
+}
