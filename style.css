@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'ArcadeClassic';
-    src: url('ka1.ttf')  format('truetype')
+    src: url('ka1.ttf') format('truetype')
 }
 
 body {
@@ -14,30 +14,113 @@ body {
     font-size: 18vw;
     margin: 4vw;
     text-align: center;
-    text-shadow: -3px 3px white,3px 3px white,3px -3px white,-3px -3px white;
+    text-shadow: -3px 3px white, 3px 3px white, 3px -3px white, -3px -3px white;
 }
 
-a { color:black } /* Globally */
+a {
+    color: black
+}
+
+
+/* Globally */
+
 
 /* Each state */
 
-a:visited { text-decoration: none; color:black; }
-a:hover { text-decoration: none; color:black; }
-a:focus { text-decoration: none; color:black; }
-a:hover, a:active { text-decoration: none; color:black }
+a:visited {
+    text-decoration: none;
+    color: black;
+}
 
+a:hover {
+    text-decoration: none;
+    color: black;
+}
 
-.motto{
+a:focus {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black
+}
+
+.motto {
     text-align: center;
     font-size: 4vw;
     font-family: Verdana, sans-serif;
-    text-shadow: -3px 3px white,3px 3px white,3px -3px white,-3px -3px white;
+    text-shadow: -3px 3px white, 3px 3px white, 3px -3px white, -3px -3px white;
 }
 
-.game-entry {
+.logo {
+    text-align: center;
+    margin-top: 5vw;
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    font-size: 3vw;
+    margin-left: 38vw;
+    font-family: Arial;
+}
+
+.text1 {
+    font-family: Arial;
+    font-size: 3vw;
+    /* text-align: justify; */
+    margin-left: 38vw;
+}
+
+.buttons {
+    margin-top: 8vw;
+}
+
+.button1 {
+    background: url(AppStore.png) no-repeat;
+    cursor: pointer;
+    border: none;
+    background-size: 15vw;
     width: 20vw;
+    height: 6vw;
+    margin-inline-start: 14vw;
 }
 
-.game-icon {
+.button2 {
+    background: url(GooglePlay.png) no-repeat;
+    cursor: pointer;
+    border: none;
+    background-size: 15vw;
+    width: 20vw;
+    height: 6vw;
+}
 
+.border {
+    border-style: solid;
+    border-color: black;
+    border-width: 1vw;
+    margin-top: 5vw;
+    padding-top: 4vw;
+    padding-left: 8vw;
+    padding-bottom: 2vw;
+}
+
+.border1 {
+    border-style: solid;
+    border-color: black;
+    border-width: 1vw;
+    margin-top: 10vw;
+    padding-top: 4vw;
+    padding-left: 8vw;
+    padding-bottom: 2vw;
+}
+
+.footer {
+    padding-top: 15vw;
+    column-count: 3;
+    column-gap: 10vw;
+    padding-left: 7vw;
 }
