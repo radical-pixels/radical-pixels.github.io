@@ -9,23 +9,20 @@ body {
 }
 
 .title {
-    /* font-family: 'ArcadeClassic'; */
-    font-family: Verdana, sans-serif;
-    font-size: 18vw;
+    font-family: 'ArcadeClassic';
+    /* font-family: Verdana, sans-serif; */
+    font-size: 16vw;
     margin: 4vw;
     text-align: center;
     text-shadow: -3px 3px white, 3px 3px white, 3px -3px white, -3px -3px white;
 }
 
+
+/* KEEP links black */
 a {
     color: black
 }
 
-
-/* Globally */
-
-
-/* Each state */
 
 a:visited {
     text-decoration: none;
@@ -48,6 +45,8 @@ a:active {
     color: black
 }
 
+/* KEEP links black */
+
 .motto {
     text-align: center;
     font-size: 4vw;
@@ -62,38 +61,27 @@ a:active {
     height: auto;
 }
 
-.text {
-    font-size: 3vw;
-    margin-left: 38vw;
-    font-family: Arial;
-}
-
-.text1 {
-    font-family: Arial;
-    font-size: 3vw;
-    /* text-align: justify; */
-    margin-left: 38vw;
-}
 
 .buttons {
-    margin-top: 8vw;
+    margin-top: 2vw;
+    margin-left: 8vw;
 }
 
-.button1 {
+.play-store {
     background: url(AppStore.png) no-repeat;
     cursor: pointer;
     border: none;
-    background-size: 15vw;
+    background-size: 20vw;
     width: 20vw;
     height: 6vw;
     margin-inline-start: 14vw;
 }
 
-.button2 {
+.apple-store {
     background: url(GooglePlay.png) no-repeat;
     cursor: pointer;
     border: none;
-    background-size: 15vw;
+    background-size: 20vw;
     width: 20vw;
     height: 6vw;
 }
@@ -103,19 +91,9 @@ a:active {
     border-color: black;
     border-width: 1vw;
     margin-top: 5vw;
-    padding-top: 4vw;
-    padding-left: 8vw;
-    padding-bottom: 2vw;
-}
-
-.border1 {
-    border-style: solid;
-    border-color: black;
-    border-width: 1vw;
-    margin-top: 10vw;
-    padding-top: 4vw;
-    padding-left: 8vw;
-    padding-bottom: 2vw;
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 4vw;
 }
 
 .footer {
@@ -125,7 +103,20 @@ a:active {
     padding-left: 7vw;
 }
 
-.game-icons {
-    width: 22vw;
-    height: 22vw;
+.game-icon {
+    width: 28vw;
+    height: 28vw;
+    float: left;
+}
+
+.game-title {
+    font-size: 7vw;
+    margin-left: 34vw;
+    font-family: Arial;
+}
+
+.game-description {
+    font-family: Arial;
+    font-size: 5vw;
+    margin-left: 34vw;
 }
